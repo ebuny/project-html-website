@@ -12,19 +12,21 @@
         .main-container {
             height: 100%;
             width: 100%;
-            background-color: #1d539d;
-            color: white;
+            /* background-color: #1d539d; */
+            background-color: #A7D4DF;
+            color: #293E40;
             padding-top: 6%;
             box-sizing: border-box;
             overflow-y: auto;
             overflow-x: hidden;
             font-family: "Segoe UI";
+            font-weight: bold;
         }
 
         .cloud-image {
             width: 1200px;
-            height: 250px;
-            padding-bottom: 50px;
+            height: 500px;
+            /* padding-bottom: 10px; */
             margin: auto;
         }
 
@@ -47,6 +49,7 @@
             font-size: 24px;
             line-height: 28px;
             padding-bottom: 25px;
+            font-weight: bolder;
         }
 
         .next-steps-body {
@@ -65,11 +68,14 @@
             height: 20px;
             width: 20px;
             margin-right: 10px;
+            
         }
 		
 		.step-text a {
-            color: white;
+            color: #293E40;
 			text-decoration: none;
+            font-weight: bolder;
+            
         }
 		
 		.step-text a:hover {
@@ -95,6 +101,7 @@
         }
         .content-body{
             min-width: 400px;
+        
         }
 
         @media (max-width: 1024px) {
